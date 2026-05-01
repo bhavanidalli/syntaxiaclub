@@ -71,7 +71,7 @@ app.post("/feedback", async (req, res) => {
 
 // Root route: Serve your HTML
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../html1.html"));
+  res.sendFile(path.join(__dirname, "html1.html"));
 });
 
 // DO NOT INCLUDE STATIC SERVING FOR ROOT:
